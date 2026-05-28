@@ -1,0 +1,49 @@
+{
+  "adb": {
+    "path": "E:\\MuMuPlayer-12.0\\nx_device\\12.0\\shell\\adb.exe",
+    "host": "127.0.0.1",
+    "port": 16384,
+    "device": "127.0.0.1:16384",
+    "auto_connect": true
+  },
+  "emulator": {
+    "type": "mumu",
+    "resolution": [1280, 720],
+    "dpi": 240
+  },
+  "tasks": {
+    "combat": {
+      "enabled": false,
+      "stage": "CE-6",
+      "times": 99,
+      "use_sanity_potion": false,
+      "use_originium": false
+    },
+    "base": {
+      "enabled": false,
+      "auto_shift": true,
+      "auto_collect": true,
+      "auto_clue": true
+    },
+    "recruitment": {
+      "enabled": false,
+      "auto_confirm": true,
+      "preferred_tags": ["先锋", "近卫", "术师", "治疗"]
+    },
+    "mail": {
+      "enabled": false,
+      "collect_all": true
+    }
+  },
+  "scheduler": {
+    "enabled": false,
+    "loop_interval": 300,
+    "max_sanity_wait": 3600
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "zh_CN",
+    "log_level": "INFO",
+    "always_on_top": false
+  }
+}
